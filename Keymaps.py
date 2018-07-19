@@ -568,7 +568,7 @@ class FindKeymapRenderer(object):
 			self.panel_items.append([caption, keys + u' (' + package + u')'])
 
 		# show_quick_panel(items, on_done, <flags>, <selected_index>, <on_highlighted>)
-		window.show_quick_panel(self.panel_items, self.runcommand, sublime.MONOSPACE_FONT)
+		window.show_quick_panel(self.panel_items, self.runcommand)
 
 
 	def runcommand(self, idx):

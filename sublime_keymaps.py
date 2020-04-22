@@ -741,7 +741,7 @@ class FindKeymapRenderer:
 
         # show_quick_panel(items, on_done, <flags>, <selected_index>, <on_highlighted>)
         window.show_quick_panel(
-            self.panel_items, self.runcommand, sublime.MONOSPACE_FONT
+            self.panel_items, self.runcommand
         )
 
     def runcommand(self, idx):
